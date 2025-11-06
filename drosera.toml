@@ -8,8 +8,8 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps.flashloan_volume_trap]
 path = "out/FlashloanVolumeTrap.sol/FlashloanVolumeTrap.json"
-response_contract = "0x0000000000000000000000000000000000000000"
-response_function = ""
+response_contract = "0x2e67c5854bC4bE817b7E653E272DA2F2b259953C"
+response_function = "respondToIncident(bytes)"
 cooldown_period_blocks = 20
 min_number_of_operators = 1
 max_number_of_operators = 2
